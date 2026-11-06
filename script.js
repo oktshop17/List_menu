@@ -2,7 +2,7 @@
 var WA="62895345452412";
 var P=[
 {id:1,cat:"Keripik & Stik",em:"🥔",n:"Keripik Kaca",rt:"4.9 · 7RB+ terjual",v:["Original","Pedas","Cabe Ijo"],d:"Keripik kaca renyah, tersedia 3 varian rasa.",o:[["1 kg",75000],["500 gr",38000],["250 gr",22000],["125 gr",13000],["100 gr",10000]]},
-{id:2,cat:"Keripik & Stik",em:"🍤",n:"Usus Crispy",,rt:"4.9 · 1RB+ terjual"v:["Pedas","Original"],d:"Usus crispy gurih dan renyah.",o:[["1 kg",105000],["500 gr",55000],["250 gr",28000],["100 gr",13000]]},
+{id:2,cat:"Keripik & Stik",em:"🍤",n:"Usus Crispy",,rt:"4.9 · 1RB+ terjual",v:["Pedas","Original"],d:"Usus crispy gurih dan renyah.",o:[["1 kg",105000],["500 gr",55000],["250 gr",28000],["100 gr",13000]]},
 {id:3,cat:"Keripik & Stik",em:"🐟",n:"Basreng Stik",rt:"4.8 · 2RB+ terjual",v:["Pedas","Original"],d:"Baso goreng bentuk stik, gurih dan garing.",o:[["1 kg",75000],["500 gr",45000],["250 gr",23000],["125 gr",13000]]},
 {id:4,cat:"Frozen & Mateng",em:"🍲",n:"Baso Aci",rt:"4.7 · 10RB+ terjual",k:["Frozen","Mateng"],v:["Ayam Suir","Tetelan","Urat","Original"],d:"Baso aci tersedia frozen & mateng. Harga per porsi berbeda tiap varian.",vp:{"Ayam Suir":10000,"Tetelan":10000,"Urat":12000,"Original":6000},o:[["1 porsi",0]]},
 {id:5,cat:"Frozen & Mateng",em:"🌶️",n:"Basreng Bojot",d:"Basreng bojot pedas gurih.",o:[["1 porsi",5000]]},
