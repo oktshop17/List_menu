@@ -2,14 +2,14 @@
 var WA="62895345452412";
 var P=[
 {id:1,cat:"Keripik & Stik",em:"🥔",n:"Keripik Kaca",rt:"4.9 · 7RB+ terjual",v:["Original","Pedas","Cabe Ijo"],d:"Keripik kaca renyah, tersedia 3 varian rasa.",o:[["1 kg",75000],["500 gr",38000],["250 gr",22000],["125 gr",13000],["100 gr",10000]]},
-{id:2,cat:"Keripik & Stik",em:"🍤",n:"Usus Crispy",rt:"4.8 · 343 terjual",v:["Pedas","Original"],d:"Usus crispy gurih dan renyah.",o:[["1 kg",105000],["500 gr",55000],["250 gr",28000],["100 gr",13000]]},
+{id:2,cat:"Keripik & Stik",em:"🍤",n:"Usus Crispy",rt:"4.8 · 596 terjual",v:["Pedas","Original"],d:"Usus crispy gurih dan renyah.",o:[["1 kg",105000],["500 gr",55000],["250 gr",28000],["100 gr",13000]]},
 {id:3,cat:"Keripik & Stik",em:"🐟",n:"Basreng Stik",rt:"4.8 · 476 terjual",v:["Pedas","Original"],d:"Baso goreng bentuk stik, gurih dan garing.",o:[["1 kg",75000],["500 gr",45000],["250 gr",23000],["125 gr",13000]]},
 {id:4,cat:"Frozen & Mateng",em:"🍲",n:"Baso Aci",rt:"4.7 · 10RB+ terjual",tes:[{u:"i*****h",b:5,t:"Kemasan bagus, harga sesuai",s:"Boci Ayam Suir Frozen · 06 Apr 2024 · ShopeeFood"}],k:["Frozen","Mateng"],v:["Ayam Suir","Tetelan","Urat","Original"],d:"Baso aci tersedia frozen & mateng. Harga per porsi berbeda tiap varian.",vp:{"Ayam Suir":10000,"Tetelan":10000,"Urat":12000,"Original":6000},o:[["1 porsi",0]]},
 {id:9,cat:"Frozen & Mateng",em:"🍡",n:"Baso Ikan Liat",rt:"4.8 · 4RB+ terjual",d:"Baso ikan liat isi 350gr, bumbu menggoda dan ikannya terasa jelas.",o:[["350gr",21000]]},
 {id:5,cat:"Frozen & Mateng",em:"🌶️",n:"Basreng Bojot",d:"Basreng bojot pedas gurih.",o:[["1 porsi",5000]]},
 {id:6,cat:"Frozen & Mateng",em:"🍢",n:"Otak-Otak Bojot",d:"Otak-otak bojot.",o:[["1 porsi",5000]]},
-{id:7,cat:"Cireng",em:"🥟",n:"Cireng Isi",rt2:"👍 330+ terjual · disukai 22 pembeli di ShopeeFood",tes:[{u:"wilin1104",b:5,t:"MANTAPPPPPP ENAK BANGET INII BOCINYA MANTAPPPP CIRENGNYA JUGAA",s:"Cireng Isi Ati Ampela Pedas · 16 Okt 2026 · ShopeeFood"}],k:["Frozen","Mateng"],v:["Ayam Suir","Ati Ampela","Keju Lumer","Jando"],d:"Cireng isi semua varian, harga per pcs.",o:[["1 pcs",2000]]},
-{id:8,cat:"Cireng",em:"🧀",n:"Cireng Kuah Keju Creamy",rt2:"👍 100 terjual · disukai 4 pembeli di ShopeeFood",d:"Isi 4 pcs ukuran besar, cireng ayam atau bisa mix dengan varian keju dan jando, dengan kuah keju creamy.",o:[["Isi 4 pcs",10000]]}
+{id:7,cat:"Cireng",em:"🥟",n:"Cireng Isi",rt2:"👍 330+ terjual · disukai 102 pembeli di ShopeeFood",tes:[{u:"wilin1104",b:5,t:"MANTAPPPPPP ENAK BANGET INII BOCINYA MANTAPPPP CIRENGNYA JUGAA",s:"Cireng Isi Ati Ampela Pedas · 16 Okt 2026 · ShopeeFood"}],k:["Frozen","Mateng"],v:["Ayam Suir","Ati Ampela","Keju Lumer","Jando"],d:"Cireng isi semua varian, harga per pcs.",o:[["1 pcs",2000]]},
+{id:8,cat:"Cireng",em:"🧀",n:"Cireng Kuah Keju Creamy",rt2:"👍 100 terjual · disukai 54 pembeli di ShopeeFood",d:"Isi 4 pcs ukuran besar, cireng ayam atau bisa mix dengan varian keju dan jando, dengan kuah keju creamy.",o:[["Isi 4 pcs",10000]]}
 ];
 var cats=["Semua","Rekomendasi"].concat(P.map(function(p){return p.cat}).filter(function(c,i,a){return a.indexOf(c)===i}));
 var cur="Semua",st={};
