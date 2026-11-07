@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>OKTSHOP17 | Menu Cemilan & Daftar Reseller</title>
+<meta name="description" content="Pesan cemilan OKTSHOP17: keripik kaca, basreng, baso aci, cireng. Bisa COD, Maxim, JNT/JNE. Daftar reseller dan dapat penghasilan tambahan.">
+<meta property="og:title" content="OKTSHOP17 | Menu Cemilan & Daftar Reseller">
+<meta property="og:description" content="Pesan cemilan OKTSHOP17 atau daftar jadi reseller sekarang.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=12">
+</head>
+<body>
+<div class="wrap">
+ <div id="viewMenu">
+  <header class="hero">
+    <div class="hero-top"><span class="brand">OKTSHOP17</span><span class="open" id="openBadge">● Buka</span></div>
+    <div class="hero-t"><span class="w-em">👋</span><div><b>Selamat datang, Kak!</b><p>Halo kak, mau pilih cemilan apa kak? Ready untuk cemilan, silakan dipilih 🤗</p></div></div>
+    <div class="stats">
+      <div class="st"><b>4.7 ★</b><span>Rating toko di Shopee</span></div>
+      <div class="st"><b>2,3RB</b><span>Pengikut di Shopee</span></div>
+      <div class="st"><b>10RB+</b><span>Boci Ayam Suir terjual</span></div>
+    </div>
+  </header>
+  <div class="mynote" id="myNote" hidden></div>
+  <button type="button" class="joinbtn" id="joinBtn" onclick="goReseller()">🤝 Klik Join Reseller <span aria-hidden="true">↓</span></button>
+  <h1>🍘 Menu Cemilan</h1>
+  <p class="sub">Pilih cemilan, lihat detail, tanya via chat, atau langsung checkout.</p>
+  <div class="tabs" id="tabs"></div>
+  <div id="list"></div>
+
+  <section class="sec" id="secTesti">
+    <h2 class="sec-h">⭐ Rating & Testimoni</h2>
+    <p class="sub">Penilaian pembeli di Shopee serta bukti pesanan dari reseller kami.</p>
+    <div class="rate card">
+      <div class="rate-n"><b>4.7</b><span>dari 5</span></div>
+      <div class="rate-i">
+        <div class="stars" aria-label="Rating 4.7 dari 5">★★★★★</div>
+        <div class="rate-s">Toko <b>OKTSHOP17</b> di Shopee<br>7,7RB penilaian · 2,3RB pengikut<br>Bergabung di Shopee 9 tahun</div>
+      </div>
+      <a class="rate-b" href="https://s.shopee.co.id/2Vt50S3E9v" target="_blank" rel="noopener">Beli via Shopee</a>
+    </div>
+    <div class="ul-h"><b>Ulasan terbaru dari pembeli</b><a href="https://s.shopee.co.id/2Vt50S3E9v" target="_blank" rel="noopener">Lihat di Shopee ›</a></div>
+    <div class="ulasan" id="ulasanList"></div>
+    <div class="testi" id="testiGrid"></div>
+  </section>
+
+  <section class="sec" id="secInfo">
+    <h2 class="sec-h">🏪 Info Toko</h2>
+    <div class="card info">
+      <div class="ir"><span class="ir-i">🕘</span><div><b>Jam buka</b><span>Senin – Sabtu, 09.00 – 21.00</span></div></div>
+      <div class="ir"><span class="ir-i">🛵</span><div><b>Kirim via Maxim</b><span>Serang dan sekitarnya</span></div></div>
+      <div class="ir"><span class="ir-i">📦</span><div><b>Kirim via JNT/JNE</b><span>Seluruh Pulau Jawa</span></div></div>
+      <div class="ir"><span class="ir-i">🤝</span><div><b>Titik COD</b><span>Cipare – Kebon Jahe Serang, RS DKT</span></div></div>
+      <div class="ir"><span class="ir-i">✅</span><div><b>Minimal order</b><span>Tidak ada minimal order</span></div></div>
+    </div>
+  </section>
+
+  <section class="sec" id="secKontak">
+    <h2 class="sec-h">📍 Kontak & Lokasi</h2>
+    <p class="sub">Hubungi kami atau kunjungi toko. Tinggal klik.</p>
+    <div class="card kontak">
+      <a class="kr" href="https://wa.me/62895345452412?text=Halo%20kak%2C%20saya%20mau%20tanya%20produk%20OKTSHOP17" target="_blank" rel="noopener"><span class="ir-i">💬</span><div><b>WhatsApp</b><span>0895-3454-52412</span></div><i>›</i></a>
+      <a class="kr" href="https://www.instagram.com/oktshop17" target="_blank" rel="noopener"><span class="ir-i">📸</span><div><b>Instagram</b><span>@oktshop17</span></div><i>›</i></a>
+      <a class="kr" href="https://maps.app.goo.gl/fKgX1zyuQx8KLPRt6" target="_blank" rel="noopener"><span class="ir-i">🗺️</span><div><b>Alamat Toko</b><span>Buka di Google Maps</span></div><i>›</i></a>
+      <a class="kr" href="https://s.shopee.co.id/2Vt50S3E9v" target="_blank" rel="noopener"><span class="ir-i">🛍️</span><div><b>Shopee</b><span>Toko OKTSHOP17</span></div><i>›</i></a>
+    </div>
+  </section>
+
+  <section class="sec" id="secAkt">
+    <h2 class="sec-h">📝 Catatan Pengunjung</h2>
+    <p class="sub">Pengunjung yang sudah checkout dan daftar reseller.</p>
+    <div id="aktList"></div>
+  </section>
+
+  <div class="offer" id="rsAnchor">
+    <h2 class="offer-h">💰 Ingin Penghasilan Tambahan?</h2>
+    <p>Jadi reseller cemilan OKTSHOP17 dan dapatkan penghasilan tambahan dari jualan cemilan. Cukup daftar, lalu mulai jualan dan raih untungnya.</p>
+  </div>
+
+  <button type="button" class="cta" id="bukaRs">
+    <svg class="cta-line" aria-hidden="true"><rect></rect></svg>
+    <span class="cta-em">🤝</span>
+    <span class="cta-tx"><b>Jadi Reseller</b><small>Klik di sini untuk daftar</small></span>
+    <span class="cta-ar">›</span>
+  </button>
+
+  <section class="ol">
+    <h2 class="ol-h">🛵 Pesan via Shopee & Online Food</h2>
+    <p class="sub">Bisa juga pesan di ONLINEFOOD. Pilih aplikasi favorit Kakak:</p>
+    <div class="ol-b">
+      <a class="olb shopee shopmain" href="https://s.shopee.co.id/2Vt50S3E9v" target="_blank" rel="noopener">BELI VIA SHOPEE</a>
+      <a class="olb shopee" href="https://shopee.co.id/universal-link/now-food/shop/20703737?deep_and_deferred=1&amp;shareChannel=copy_link" target="_blank" rel="noopener">SHOPEEFOOD</a>
+      <a class="olb gofood" href="https://gofood.link/a/BXhTvgw" target="_blank" rel="noopener">GOFOOD</a>
+    </div>
+  </section>
+ </div>
+
+ <div id="viewRs" hidden>
+  <button type="button" class="back" id="kembali">← Kembali ke menu</button>
+  <section id="reseller" class="rs">
+    <h2 class="rs-h">🤝 Daftar Reseller</h2>
+    <p class="sub">Mau jualan cemilan kami? Isi data di bawah, admin akan segera menghubungi Kakak.</p>
+    <form id="rsForm" class="card" novalidate>
+      <label class="lb" for="rsNama">Nama</label>
+      <input id="rsNama" type="text" placeholder="Nama lengkap" autocomplete="name">
+      <small class="err" id="rsE-nama"></small>
+
+      <label class="lb" for="rsAlamat">Alamat</label>
+      <textarea id="rsAlamat" rows="3" placeholder="Alamat lengkap" autocomplete="street-address"></textarea>
+      <small class="err" id="rsE-alamat"></small>
+
+      <label class="lb" for="rsHp">No. HP</label>
+      <input id="rsHp" type="tel" inputmode="tel" placeholder="08xxxxxxxxxx" autocomplete="tel">
+      <small class="err" id="rsE-hp"></small>
+
+      <label class="lb" for="rsEmail">Email</label>
+      <input id="rsEmail" type="email" inputmode="email" placeholder="nama@email.com" autocomplete="email">
+      <small class="err" id="rsE-email"></small>
+
+      <button type="submit" class="full b p">Daftar Reseller</button>
+    </form>
+  </section>
+ </div>
+
+ <footer class="cr">COPYRIGHT BY OKTSHOP17</footer>
+</div>
+
+<button type="button" class="cbar" id="cbar" onclick="cartv()" hidden>
+  <span>🛒 Pesanan Kakak · <b id="cbt"></b></span><span class="cbar-go">Lihat ›</span>
+</button>
+
+<div class="rov" id="rsOv" role="dialog" aria-modal="true" aria-labelledby="rsOkT">
+  <div class="pop">
+    <div class="okc">✓</div>
+    <h3 id="rsOkT">Pendaftaran Berhasil!</h3>
+    <p class="pr">Terima kasih, <b id="rsOkNama"></b>. Data dikirim ke WhatsApp admin dalam <b id="rsCd">3</b> detik.</p>
+    <pre id="rsPv" class="pv"></pre>
+    <a id="rsKirim" class="full b p" href="#" target="_blank" rel="noopener">Kirim ke WhatsApp Admin</a>
+    <button type="button" class="full b" id="rsTutup">Tutup</button>
+  </div>
+</div>
+<div class="ov" id="ov"><div class="sh" id="sh"></div></div>
+<script>
+function goReseller(){
+  var el=document.getElementById("rsAnchor");
+  if(!el)return;
+  var y=el.getBoundingClientRect().top+(window.pageYOffset||document.documentElement.scrollTop)-16;
+  var before=window.pageYOffset;
+  try{window.scrollTo({top:y,behavior:"smooth"})}catch(e){window.scrollTo(0,y)}
+  setTimeout(function(){if(Math.abs(window.pageYOffset-before)<5){window.scrollTo(0,y);el.scrollIntoView()}},700);
+}
+</script>
+<script src="firebase-config.js?v=12"></script>
+<script src="data.js?v=12"></script>
+<script src="script.js?v=12"></script>
+</body>
+</html>
